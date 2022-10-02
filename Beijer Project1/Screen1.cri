@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.47.417.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Screen1.Button" TargetProperty="FontFamily" Source="Tahoma" />
+        <Item Target="Screen1.AnalogNumeric" TargetProperty="FontFamily" Source="Tahoma" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Screen1.Button" TargetProperty="Actions" Source="Tags.MAIN_Variable_Bool" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Screen1.AnalogNumeric" TargetProperty="Value" Source="Tags.MAIN_Variable_Real" />
+        <Item Target="Screen1.MultiPicture" TargetProperty="Value" Source="Tags.MAIN_Salida_00" />
+        <Item Target="Screen1.MultiPicture1" TargetProperty="Value" Source="Tags.MAIN_Salida_01" />
+        <Item Target="Screen1.MultiPicture2" TargetProperty="Value" Source="Tags.MAIN_Salida_02" />
+        <Item Target="Screen1.MultiPicture3" TargetProperty="Value" Source="Tags.MAIN_Salida_03" />
+        <Item Target="Screen1.MultiPicture4" TargetProperty="Value" Source="Tags.MAIN_Salida_04" />
+        <Item Target="Screen1.MultiPicture5" TargetProperty="Value" Source="Tags.MAIN_Salida_05" />
+        <Item Target="Screen1.MultiPicture6" TargetProperty="Value" Source="Tags.MAIN_Salida_06" />
+        <Item Target="Screen1.MultiPicture7" TargetProperty="Value" Source="Tags.MAIN_Salida_07" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects">
+          <Details>
+            <Detail>
+              <Key>Button</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>AnalogNumericFX</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Symbol</Key>
+              <Value>8</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>10</ObjectsCount>
+          <ScreenName>Screen1</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Screen1</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Screen1.Button" TargetProperty="Actions" Source="Tags.MAIN_Variable_Bool" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture" Source="button green" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture1" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture1" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture1" Source="button green" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture2" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture2" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture2" Source="button green" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture3" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture3" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture3" Source="button green" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture4" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture4" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture4" Source="button green" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture5" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture5" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture5" Source="button green" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture6" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture6" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture6" Source="button green" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture7" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture7" Source="button gray" Width="54" Height="54" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen1.MultiPicture7" Source="button green" Width="54" Height="54" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

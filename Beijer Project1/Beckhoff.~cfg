@@ -1,0 +1,12 @@
+Begin {C092BDD9-FC7D-40E3-B16D-291E51E14DF1} BeckhoffADSSym_Pre2.BeckhoffADSSym_Pre2.1 (null)
+    PLCPort = 2 
+    PLCBaudRate = 19200 
+    PLCDataBits = 8 
+    PLCStopBit = 0 
+    PLCParity = 0 
+    OfflineStationRetryTime = 5 
+    Retries = 3 
+    Timeout = 2000 
+    UserSettings = "c,1;f,1;HMINetId,192.168.10.149.1.1;TCv,1;MonOnlChg,1;"
+    StationList = "1,192.168.10.66,5.52.100.118.1.1,851;"
+End

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.47.417.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataSourceContainer, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" Name="Beckhoff" Driver="BeckhoffADSSym_Pre2.BeckhoffADSSym_Pre2.1" Servername="Beijer.InprocessNeo.1" Node="" Url="" TargetInfoString="iXDeveloper;WinCe6;Beijer;Exter iX;X2 base 7;en;" ConnectedImportFilePath="" d1p1:Site.Name="Beckhoff" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833">
+    <OpcUaNamespaceInfos>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcUaClient.OpcUaNamespaceInfos, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" />
+    </OpcUaNamespaceInfos>
+    <DataItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Salida_00" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem1" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Salida_01" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem2" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Salida_02" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem3" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Salida_03" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem4" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Salida_04" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem5" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Salida_05" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem6" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Salida_06" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem7" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Salida_07" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem8" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Variable_Bool" DataType="DT_BOOLEAN" d1p1:Site.Name="DataItem9" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.47.417.0, Culture=neutral, PublicKeyToken=null" ItemID="MAIN.Variable_Real" DataType="DT_REAL4" d1p1:Site.Name="DataItem10" ProjectGuid="b301e7ef-7c9f-4102-b2c3-fa77dbeab833" />
+    </DataItems>
+  </Object>
+</NeoItem>

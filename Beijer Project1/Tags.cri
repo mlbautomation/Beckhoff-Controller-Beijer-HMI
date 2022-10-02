@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.47.417.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Tags" TargetProperty="MAIN_Salida_00" Source="Beckhoff.DataItem1" />
+        <Item Target="Tags" TargetProperty="MAIN_Salida_01" Source="Beckhoff.DataItem2" />
+        <Item Target="Tags" TargetProperty="MAIN_Salida_02" Source="Beckhoff.DataItem3" />
+        <Item Target="Tags" TargetProperty="MAIN_Salida_03" Source="Beckhoff.DataItem4" />
+        <Item Target="Tags" TargetProperty="MAIN_Salida_04" Source="Beckhoff.DataItem5" />
+        <Item Target="Tags" TargetProperty="MAIN_Salida_05" Source="Beckhoff.DataItem6" />
+        <Item Target="Tags" TargetProperty="MAIN_Salida_06" Source="Beckhoff.DataItem7" />
+        <Item Target="Tags" TargetProperty="MAIN_Salida_07" Source="Beckhoff.DataItem8" />
+        <Item Target="Tags" TargetProperty="MAIN_Variable_Bool" Source="Beckhoff.DataItem9" />
+        <Item Target="Tags" TargetProperty="MAIN_Variable_Real" Source="Beckhoff.DataItem10" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="PollGroups">
+          <Details>
+            <Detail>
+              <Key>Group1</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group2</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group3</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group4</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group5</Key>
+              <Value>500</Value>
+            </Detail>
+          </Details>
+        </Item>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="DataExchange">
+          <Details>
+            <Detail>
+              <Key>DataExchangeTags</Key>
+              <Value>0</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

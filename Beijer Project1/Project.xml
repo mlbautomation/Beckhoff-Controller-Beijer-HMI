@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.47.417.0" ProjectRevision="5">
+  <Guid>b301e7ef-7c9f-4102-b2c3-fa77dbeab833</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2022-09-23T11:09:42.5312978-05:00" Length="456" />
+    <ProjectFile Name="Symbols\button gray.lib" ModifiedDate="2022-06-21T16:33:20-05:00" Length="21769" />
+    <ProjectFile Name="Symbols\button green.lib" ModifiedDate="2022-06-21T16:33:20-05:00" Length="24062" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2022-09-23T10:06:33.6400812-05:00" Length="517" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2022-09-23T10:06:33.7560234-05:00" Length="6390" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2022-09-23T10:06:33.789026-05:00" Length="451" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2022-09-23T10:06:33.8000663-05:00" Length="694" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2022-09-23T10:06:33.8500164-05:00" Length="459" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2022-09-23T11:09:42.5550182-05:00" Length="12551" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2022-09-23T11:24:25.9460816-05:00" Length="2650" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2022-09-23T10:06:38.2006873-05:00" Length="21052" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2022-09-23T10:06:34.1572504-05:00" Length="1056" />
+    <ProjectFile Name="Screen1.neoxaml" ModifiedDate="2022-09-23T11:24:25.9893031-05:00" Length="799" />
+    <ProjectFile Name="Screen1.xaml" ModifiedDate="2022-09-23T11:24:26.0709859-05:00" Length="16840" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2022-09-23T10:06:34.6969423-05:00" Length="850" />
+    <ProjectFile Name="Beckhoff.neo" ModifiedDate="2022-09-23T11:09:43.1063373-05:00" Length="3646" />
+  </ProjectFiles>
+</Project>

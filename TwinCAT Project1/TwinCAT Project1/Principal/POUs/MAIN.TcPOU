@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <POU Name="MAIN" Id="{d77c70af-521a-40f2-9a5b-a6915baab215}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	Salida_00 AT %Q* :BOOL;
+	Salida_01 AT %Q* :BOOL;
+	Salida_02 AT %Q* :BOOL;
+	Salida_03 AT %Q* :BOOL;
+	Salida_04 AT %Q* :BOOL;
+	Salida_05 AT %Q* :BOOL;
+	Salida_06 AT %Q* :BOOL;
+	Salida_07 AT %Q* :BOOL;
+	TREN_ON :TON;
+	TREN_OFF :TON;
+	Contador :INT;
+	RTRIGInst :R_TRIG;
+	Variable_Bool :BOOL;
+	Variable_Real :REAL;
+	Variable_Time :TIME;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[Variable_Time := REAL_TO_TIME(Variable_Real);
+TREN_ON(IN:= NOT(TREN_OFF.Q) AND Variable_Bool, PT:= Variable_Time);
+TREN_OFF(IN:= TREN_ON.Q, PT:= Variable_Time);
+RTRIGInst(CLK:= TREN_ON.Q);
+IF RTRIGInst.Q THEN
+	Contador := Contador + 1;
+END_IF;
+IF Contador > 7 THEN
+	Contador := 0;
+END_IF;
+//***************************
+IF Contador = 0 THEN
+	Salida_00 := TRUE;
+ELSE
+	Salida_00 := FALSE;
+END_IF;
+//***************************
+IF Contador = 1 THEN
+	Salida_01 := TRUE;
+ELSE
+	Salida_01 := FALSE;
+END_IF;
+//***************************
+IF Contador = 2 THEN
+	Salida_02 := TRUE;
+ELSE
+	Salida_02 := FALSE;
+END_IF;
+//***************************
+IF Contador = 3 THEN
+	Salida_03 := TRUE;
+ELSE
+	Salida_03 := FALSE;
+END_IF;
+//***************************
+IF Contador = 4 THEN
+	Salida_04 := TRUE;
+ELSE
+	Salida_04 := FALSE;
+END_IF;
+//***************************
+IF Contador = 5 THEN
+	Salida_05 := TRUE;
+ELSE
+	Salida_05 := FALSE;
+END_IF;
+//***************************
+IF Contador = 6 THEN
+	Salida_06 := TRUE;
+ELSE
+	Salida_06 := FALSE;
+END_IF;
+//***************************
+IF Contador = 7 THEN
+	Salida_07 := TRUE;
+ELSE
+	Salida_07 := FALSE;
+END_IF;
+]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+      <LineId Id="22" Count="11" />
+      <LineId Id="35" Count="1" />
+      <LineId Id="34" Count="0" />
+      <LineId Id="39" Count="4" />
+      <LineId Id="38" Count="0" />
+      <LineId Id="45" Count="4" />
+      <LineId Id="44" Count="0" />
+      <LineId Id="51" Count="4" />
+      <LineId Id="50" Count="0" />
+      <LineId Id="57" Count="4" />
+      <LineId Id="56" Count="0" />
+      <LineId Id="63" Count="4" />
+      <LineId Id="62" Count="0" />
+      <LineId Id="69" Count="4" />
+      <LineId Id="68" Count="0" />
+      <LineId Id="75" Count="4" />
+      <LineId Id="74" Count="0" />
+      <LineId Id="21" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
